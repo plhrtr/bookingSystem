@@ -1,5 +1,5 @@
 # Overview
-A booking System with the music room in mind.
+A booking System for a room, a tool, ... .
 You can view all the bookings upto 10 weeks into the future (easy expandable more is needed)
 You can log in with the number of you room and then you are able to view all your own bookings and delete them or you can book the room for yourself, just give a starting and and end time and a short description.
 
