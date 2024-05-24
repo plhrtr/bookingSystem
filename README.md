@@ -11,9 +11,11 @@ You can log in with the number of you room and then you are able to view all you
 # Pictures
   ## Desktop
   ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/9018118f-da19-49cf-8a4a-ec7d69edb050)
-  ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/cae7623e-7a10-49f2-a60a-3edba4b08785)
   ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/e8ec03f7-9968-44ba-8c98-c077fb80ac0d)
   ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/33d4c463-6676-41e0-b2dd-af154c5d17ae)
+  ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/bcbee035-0ee8-48d4-892b-e9a14523bd1d)
+  ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/baff712c-a77f-441e-afc7-d8270f40f444)
+
   
   ## Mobile
   ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/25c96853-5ce3-4236-af88-08223cf682c8)
