@@ -1,0 +1,7 @@
+@tailwind base;
+.browser-darkmode {
+    color-scheme: dark;
+}
+@tailwind components;
+@tailwind utilities;
+
