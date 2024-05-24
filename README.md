@@ -1,5 +1,5 @@
 # Overview
-A booking System for a room, a tool, ... .
+A booking System for a room, a tool, ... in a dormitory.
 You can view all the bookings upto 10 weeks into the future (easy expandable more is needed)
 You can log in with the number of you room and then you are able to view all your own bookings and delete them or you can book the room for yourself, just give a starting and and end time and a short description.
 
