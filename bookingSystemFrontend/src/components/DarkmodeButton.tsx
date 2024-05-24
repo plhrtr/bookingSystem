@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 
 function disableDarkmode() {
-  document.body.style.colorScheme = "";
+  document.documentElement.style.colorScheme = "";
   document.body.classList.remove("dark");
 }
 
 function enableDarkmode() {
-  document.body.style.colorScheme = "dark";
+  document.documentElement.style.colorScheme = "dark";
   document.body.classList.add("dark");
 }
 

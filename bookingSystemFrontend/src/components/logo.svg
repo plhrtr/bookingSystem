@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="82.413086mm"
+   height="68.533409mm"
+   viewBox="0 0 82.413086 68.533409"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="automatic-save-0-2024_05_24_14_20_30-139776-1.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.525686"
+     inkscape:cx="293.63839"
+     inkscape:cy="211.38032"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="67"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-57.27017,-109.52947)">
+    <circle
+       style="fill:#ffffff;stroke-width:2.76034;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+       id="path1"
+       cx="98.068398"
+       cy="146.26636"
+       r="31.796511" />
+    <rect
+       style="fill:#e48c80;fill-opacity:1;stroke-width:2.23976;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+       id="rect5"
+       width="6.1911526"
+       height="22.122435"
+       x="79.827187"
+       y="137.10384"
+       ry="3.0955763" />
+    <g
+       id="g19"
+       transform="matrix(1.1005499,0,0,0.90972395,-27.861124,83.424446)">
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke-width:2.66212;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         id="rect10"
+         width="9.7847157"
+         height="24.794756"
+         x="136.8251"
+         y="57.614292"
+         ry="3.0993445" />
+      <path
+         style="fill:#000000;fill-opacity:0;stroke:#333333;stroke-width:6.6149;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 86.265786,61.317627 c 0,0 0.758269,-29.314634 28.551084,-29.314634 27.79282,0 28.48562,29.085645 28.48562,29.085645"
+         id="path12"
+         sodipodi:nodetypes="csc" />
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke-width:1.38757;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         id="rect6"
+         width="4.3698606"
+         height="15.083278"
+         x="147.86711"
+         y="62.470032"
+         ry="1.8854097" />
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke-width:2.66212;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         id="rect14"
+         width="9.7847157"
+         height="24.794756"
+         x="-92.765282"
+         y="57.614292"
+         ry="3.0993445"
+         transform="scale(-1,1)" />
+      <rect
+         style="fill:#333333;fill-opacity:1;stroke-width:1.38757;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+         id="rect15"
+         width="4.3698606"
+         height="15.083278"
+         x="-81.723274"
+         y="62.470032"
+         ry="1.8854097"
+         transform="scale(-1,1)" />
+    </g>
+    <rect
+       style="fill:#ffcd91;fill-opacity:1;stroke-width:2.97107;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+       id="rect19"
+       width="6.1911526"
+       height="38.927696"
+       x="90.196487"
+       y="126.80253"
+       ry="3.3545179" />
+    <rect
+       style="fill:#9ad6e1;fill-opacity:1;stroke-width:2.61321;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+       id="rect20"
+       width="6.1911526"
+       height="30.115116"
+       x="100.56578"
+       y="131.2088"
+       ry="3.0955763" />
+    <rect
+       style="fill:#abdeb0;fill-opacity:1;stroke-width:2.25463;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0"
+       id="rect21"
+       width="6.1911526"
+       height="22.417265"
+       x="110.93507"
+       y="135.05774"
+       ry="3.0955763" />
+  </g>
+</svg>

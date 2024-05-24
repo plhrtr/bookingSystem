@@ -4,6 +4,7 @@ import LoginButton from "./LoginButton";
 import DarkmodeButton from "./DarkmodeButton";
 import PopUp from "./PopUp";
 import Bookings from "./Bookings";
+import Logo from "./logo.svg";
 
 function Navbar() {
   const [isOpen, setOpen] = useState(window.innerWidth > 640);
@@ -25,8 +26,12 @@ function Navbar() {
         className="sm:hidden w-full flex items-center justify-end"
       >
         {!isOpen && (
-          <div className="flex justify-between w-full">
-            <p>Music room</p>
+          <div className="flex justify-between w-full items-center">
+            <img
+              className="bg-slate-300 dark:bg-slate-600 p-1 rounded-full h-10 w-10 shadow-md"
+              src={Logo}
+              alt=""
+            />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -45,7 +50,11 @@ function Navbar() {
         )}
         {isOpen && (
           <div className="flex justify-between w-full">
-            <p>Music room</p>
+            <img
+              className="bg-slate-300 dark:bg-slate-600 p-1 rounded-full h-10 w-10 shadow-md"
+              src={Logo}
+              alt=""
+            />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
