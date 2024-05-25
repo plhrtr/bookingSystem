@@ -1,5 +1,5 @@
 # Overview
-A booking System with the music room in mind.
+A booking System for a room, a tool, ... in a dormitory.
 You can view all the bookings upto 10 weeks into the future (easy expandable more is needed)
 You can log in with the number of you room and then you are able to view all your own bookings and delete them or you can book the room for yourself, just give a starting and and end time and a short description.
 
@@ -18,8 +18,9 @@ You can log in with the number of you room and then you are able to view all you
 
   
   ## Mobile
-  ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/25c96853-5ce3-4236-af88-08223cf682c8)
-  ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/034a540f-c1fb-41ee-94f8-0710216c08dc)
-  ![image](https://github.com/plhrtr/bookingSystem/assets/63469583/8ca29dee-ead5-448c-9c0d-7aa4b3727f95)
+![image](https://github.com/plhrtr/bookingSystem/assets/63469583/3ad323ad-190a-4cd7-b932-d405d8097e3f)
+![image](https://github.com/plhrtr/bookingSystem/assets/63469583/96f31977-0622-4449-8663-deeefe0c3306)
+![image](https://github.com/plhrtr/bookingSystem/assets/63469583/1f60c3f3-45ef-426d-973e-a9c79356e593)
+
 
 
