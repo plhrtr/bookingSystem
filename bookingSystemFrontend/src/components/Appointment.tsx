@@ -17,9 +17,9 @@ function Date({ roomNumber, statingPoint, endingPoint, description }: Props) {
         onClick={() => setVisible(true)}
         className="bg-customBlue rounded-3xl p-1 flex flex-col items-center flex-shrink-0 hover:brightness-125 transition-all"
       >
-        <p className="font-normal px-10">{statingPoint}</p>
+        <p className="font-normal text-customLightGray px-10">{statingPoint}</p>
         <p className="text-3xl font-extrabold text-white py-2">{roomNumber}</p>
-        <p className="font-normal">{endingPoint}</p>
+        <p className="font-normal text-customLightGray ">{endingPoint}</p>
       </div>
       <PopUp isVisible={isVisible} onClose={() => setVisible(false)}>
         <div className="flex flex-col space-y-3">

@@ -21,7 +21,7 @@ function Calendar() {
   };
 
   return (
-    <div className="flex flex-col bg-slate-100 dark:bg-customDarkGray border-customBlue rounded-3xl m-5 p-3 border-4 space-y-3 flex-grow overflow-auto">
+    <div className="flex flex-col bg-slate-100 dark:bg-customDarkGray border-customBlue rounded-3xl m-5 p-3 border-4 space-y-3 flex-grow">
       <div className="flex">
         <div className="flex py-2">
           <button
@@ -71,12 +71,10 @@ function Calendar() {
           {date.toLocaleString("default", { month: "long" })}
         </div>
       </div>
-      <div className="flex justify-start space-x-3">
-        <div className="flex justify-around  text-customLightGray font-bold text-lg w-full overflow-auto">
-          {getDates(date).map((res, i) => (
-            <Day key={i} date={res} />
-          ))}
-        </div>
+      <div className="flex justify-start space-x-3 overflow-auto">
+        {getDates(date).map((res, i) => (
+          <Day key={i} date={res} />
+        ))}
       </div>
     </div>
   );

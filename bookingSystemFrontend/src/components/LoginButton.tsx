@@ -7,7 +7,6 @@ function LoginButton() {
   const [isValidLogin, setValid] = useState(true);
 
   const roomNumber = localStorage.getItem("roomNumber");
-
   const handleSubmit = () => {
     let roomNumber: string = (
       document.getElementById("login_input") as HTMLInputElement
@@ -27,7 +26,7 @@ function LoginButton() {
         onClick={() => setVisible(true)}
         className="bg-slate-500 rounded-3xl p-3 px-5 text-customRed hover:bg-slate-600"
       >
-        {roomNumber === "null" ? "Login" : roomNumber}
+        {roomNumber === null ? "Login" : roomNumber}
       </button>
       <PopUp
         isVisible={isVisible}
