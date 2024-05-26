@@ -7,6 +7,7 @@ You can log in with the number of you room and then you are able to view all you
 + When you delete a booking the UI isn't upated immediatly
 + When your booking is invalid (start ist after end, start and end are not on the same day, the booking is overlapping with another booking) no helpful feedback is shown only that it didn't work
 + The booking overview panel gets really big if you have a lot of bookings (takes up the whole screen on mobile)
++ find alternative for the datetime picker because safari and firefox will only display date picker (seperate date and time picker)
 
 # Pictures
   ## Desktop
