@@ -12,8 +12,11 @@ interface Booking {
 }
 
 function Bookings() {
-  if (localStorage.getItem("roomNumber") == "null") {
-    return <p className="font-normal">Melde dich erst an!</p>;
+  if (
+    localStorage.getItem("roomNumber") == "null" ||
+    localStorage.getItem("roomNumber") == undefined
+  ) {
+    return <p className="font-normal text-base">Melde dich erst an!</p>;
   }
 
   const {

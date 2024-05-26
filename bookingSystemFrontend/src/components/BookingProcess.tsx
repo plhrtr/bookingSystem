@@ -40,8 +40,11 @@ function BookingProcess({ setValid, isBookingValid }: Props) {
     setPositive(true);
   }
 
-  if (localStorage.getItem("roomNumber") == "null") {
-    return "Melde dich erst an!";
+  if (
+    localStorage.getItem("roomNumber") == "null" ||
+    localStorage.getItem("roomNumber") == undefined
+  ) {
+    return <p className="font-normal text-base">Melde dich erst an!</p>;
   }
 
   return (

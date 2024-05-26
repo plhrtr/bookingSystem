@@ -26,7 +26,9 @@ function LoginButton() {
         onClick={() => setVisible(true)}
         className="bg-slate-500 rounded-3xl p-3 px-5 text-customRed hover:bg-slate-600"
       >
-        {roomNumber === null ? "Login" : roomNumber}
+        {roomNumber === "null" || roomNumber == undefined
+          ? "Login"
+          : roomNumber}
       </button>
       <PopUp
         isVisible={isVisible}

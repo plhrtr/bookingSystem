@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Day from "./Day";
 
 function Calendar() {
@@ -83,8 +83,8 @@ function Calendar() {
 export default Calendar;
 
 const getDates = (week: Date): Date[] => {
+  // week.getDay() is 0 for sunday -> convert to "logical" order
   const dayOfTheWeek = (week.getDay() + 6) % 7;
-  console.log(dayOfTheWeek);
   const date = week.getDate();
 
   const startOfWeek = new Date(week);
