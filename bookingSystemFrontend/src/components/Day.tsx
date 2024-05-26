@@ -61,6 +61,22 @@ function Day({ date }: Props) {
     );
   }
 
+  if (bookings == undefined) {
+    return (
+      <div className="flex flex-col flex-grow">
+        <div className="text-3xl text-customBlue font-bold flex justify-center">
+          {days[date.getDay()]}
+        </div>
+        <div className="text-customLightGray text-center">{date.getDate()}</div>
+        <div className="opacity-30 p-3 overflow-auto space-y-2">
+          <div className="bg-customLightGray rounded-3xl py-16 px-14 flex flex-col items-center flex-shrink-0 hover:brightness-125 transition-all text-white text-xl font-extrabold">
+            Error
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col flex-grow">
       <div className="text-3xl text-customBlue font-bold flex justify-center">

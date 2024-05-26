@@ -83,11 +83,12 @@ function Calendar() {
 export default Calendar;
 
 const getDates = (week: Date): Date[] => {
-  const dayOfTheWeek = week.getDay();
+  const dayOfTheWeek = (week.getDay() + 6) % 7;
+  console.log(dayOfTheWeek);
   const date = week.getDate();
 
   const startOfWeek = new Date(week);
-  startOfWeek.setDate(date - dayOfTheWeek + 1);
+  startOfWeek.setDate(date - dayOfTheWeek);
   startOfWeek.setHours(0, 0, 0, 0);
 
   const dates = [...Array(7)].map((_, i) => {
