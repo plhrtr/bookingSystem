@@ -24,7 +24,7 @@ function Date({ roomNumber, statingPoint, endingPoint, description }: Props) {
       <PopUp isVisible={isVisible} onClose={() => setVisible(false)}>
         <div className="flex flex-col space-y-3">
           <div>
-            <p>Zimmernumber:</p>
+            <p>Zimmernummer:</p>
             <p className="font-normal">{roomNumber}</p>
           </div>
           <div>

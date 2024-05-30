@@ -2,9 +2,10 @@ import React from "react";
 
 interface Props {
   id: number;
+  onDelete: Function;
 }
 
-function DeleteBooking({ id }: Props) {
+function DeleteBooking({ id, onDelete }: Props) {
   async function deleteBooking() {
     fetch("http://localhost:8080/bookings/" + id, {
       method: "DELETE",
@@ -19,6 +20,7 @@ function DeleteBooking({ id }: Props) {
     <button
       onClick={() => {
         deleteBooking();
+        onDelete();
       }}
       className="bg-red-400 rounded-lg p-1 hover:bg-red-500 hover:scale-110 transition-all"
     >

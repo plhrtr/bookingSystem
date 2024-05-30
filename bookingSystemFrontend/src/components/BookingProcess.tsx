@@ -48,7 +48,7 @@ function BookingProcess({ setValid, isBookingValid }: Props) {
   }
 
   return (
-    <form className="flex flex-col space-y-3 text-lg">
+    <div className="flex flex-col space-y-3 text-lg">
       <div className="flex flex-col">
         <p className="text-slate-200 dark:text-customLightGray">Start:</p>
         <input
@@ -92,7 +92,7 @@ function BookingProcess({ setValid, isBookingValid }: Props) {
           Buchen
         </button>
       </div>
-    </form>
+    </div>
   );
 }
 

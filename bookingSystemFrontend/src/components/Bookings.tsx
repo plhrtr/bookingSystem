@@ -69,12 +69,19 @@ function Bookings() {
         </thead>
         <tbody className="font-normal">
           {bookings.map((booking: any) => (
-            <tr key={booking.id}>
+            <tr id={booking.id} key={booking.id} className="">
               <td className="px-6 py-4">{booking.starting_point}</td>
               <td className="px-6 py-4">{booking.ending_point}</td>
               <td className="px-6 py-4">{booking.description}</td>
               <td className="px-6 py-4">
-                <DeleteBooking id={booking.id} />
+                <DeleteBooking
+                  id={booking.id}
+                  onDelete={() =>
+                    document
+                      .getElementById(booking.id)
+                      ?.classList.add("bg-red-500")
+                  }
+                />
               </td>
             </tr>
           ))}

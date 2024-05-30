@@ -90,9 +90,12 @@ public class BookingRepository {
     }
 
     private boolean isOverlapping(Booking booking1, Booking booking2) {
-        if (booking1.starting_point().isAfter(booking2.starting_point()) && booking1.starting_point().isBefore(booking2.ending_point())) {
+        if (booking1.starting_point().isEqual(booking2.starting_point())
+                || booking1.ending_point().isEqual(booking2.ending_point())
+                || booking1.starting_point().isAfter(booking2.starting_point()) && booking1.starting_point().isBefore(booking2.ending_point())) {
             return true;
-        } return booking1.ending_point().isBefore(booking2.ending_point()) && booking1.ending_point().isAfter(booking2.starting_point());
+        }
+       return booking1.ending_point().isBefore(booking2.ending_point()) && booking1.ending_point().isAfter(booking2.starting_point());
 
 
     }
